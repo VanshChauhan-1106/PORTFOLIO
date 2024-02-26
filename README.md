@@ -1,3 +1,3 @@
 # PORTFOLIO
 
-This is my (Vansh Chauhan) portfolio website.
+This is my (@VanshChauhan-1106) portfolio website.
