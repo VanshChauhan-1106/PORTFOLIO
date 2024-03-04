@@ -1,0 +1,314 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #001F3F;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+main hr {
+    border: 0;
+    height: 2px;
+    background-color: #0a3b6d;
+    margin: 40px 85px;
+}
+
+/* ------ Colors -------- */
+
+.purple {
+    color: blueviolet;
+}
+
+.gray {
+    color: gray;
+}
+
+/* ------------ NAVBAR ------------- */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: #0a3b6d;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+nav ul li a:hover {
+    color: #ffd900d8;
+    transition: all 0.5s ease-out 0s;
+}
+
+.left {
+    font-size: 1.5rem;
+
+}
+
+.left:hover {
+    cursor: pointer;
+    
+}
+
+/* ------------ FIRST SECTION ------------ */
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    margin: 125px 0;
+    align-items: center;
+}
+
+.firstSection > div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.25rem;
+}
+
+.rightSection img {
+    width: 30rem;
+    
+}
+
+.firstSection .btn {
+    margin: 10px 0;
+}
+
+
+/* -------------- SKILL SECTION------------------ */
+
+.skillSection {
+    height: 100vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.skillSection h1 {
+    font-size: 2rem;
+}
+
+.skillSection .info h4 {
+    margin: 8px;
+}
+
+.skillSection .info {
+    margin: 40px ;
+
+}
+
+.skillSection .info .bar {
+    background-color: black;
+    height: 20px;
+    display: block;
+    border: 1px solid rgb(124, 229, 243);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgb(124, 229, 243), 0 1px 2px rgb(124, 229, 243);
+    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.skillSection .info .bar:hover {
+        box-shadow: 0 5px 8px rgb(124, 229, 243), 0 5px 8px rgb(124, 229, 243);
+}
+
+.bar span {
+    height: 20px;
+    background: linear-gradient(135deg, rgb(30, 132, 190)0%, rgb(233, 233, 52)100%);
+    float: left;
+}
+
+.html {
+    width: 90%;
+    animation: html 2s;
+}
+.css {
+    width: 80%;
+    animation: css 2s;
+}
+.javascript {
+    width: 60%;
+    animation: javascript 2s;
+}
+.java {
+    width: 75%;
+    animation: java 2s;
+}
+.cpp {
+    width: 60%;
+    animation: cpp 2s;
+}
+
+.info h4 i, box-icon{
+    margin-right: 10px;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+@keyframes css {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+@keyframes javascript {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@keyframes java {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+}
+@keyframes cpp {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+
+
+
+/* -------------- SECOND SECTION ---------------- */
+
+.projectSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.projectSection h1 {
+    font-size: 2rem;
+}
+
+.projectSection .horizontal {
+    background-color: white;
+    height: 2px;
+    margin: 90px 0;
+    /* width: 80vw; */
+    display: flex;
+}
+
+.projectSection .vertical {
+    background-color: white;
+    width: 1px;
+    height: 70px;
+    margin: 0 170px;
+    
+}
+
+.img-top {
+    height: 25px;
+    position: relative;
+    top: -33px;
+    left: -12px;
+
+}
+
+.vertical-title {
+    position: relative;
+    font-size: 1.3rem;
+    width: 250px;
+    top: 50px;
+    left: -115px;
+    text-align: center;
+}
+
+.vertical-desc {
+    font-size: 15px;
+    position: relative;
+    top: 55px;
+    width: 190px;
+    left: -86px;
+    text-align: center;
+    color: gray;
+}
+
+/* -------------- FOOTER ------------- */
+
+/* footer {
+    background-color: #0a3b6d;
+    height: 300px;
+}
+
+.footer {
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+} */
+
+.footer {
+    background-color: #0a3b6d;
+    height: 300px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.footer .row-1 {
+    font-size: 1.5rem;
+}
+
+.footer .row-2 {
+    font-size: 2rem;
+    margin: 50px 0;
+}
+
+.footer .row-4 {
+    margin-bottom: 30px;
+}
+
+.footer .row-4 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
